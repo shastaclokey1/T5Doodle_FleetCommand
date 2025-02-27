@@ -3706,7 +3706,7 @@ MonoBehaviour:
   decrementObject: {fileID: 2838256774627429663}
   incrementObject: {fileID: 6630370348097856572}
   range: {x: 0, y: 9}
-  positionValue: 0
+  positionValue: 2
   continuous: 0
   rotationAxis: 0
   invertRotation: 1
@@ -4524,7 +4524,7 @@ MonoBehaviour:
   decrementObject: {fileID: 2835129531774495209}
   incrementObject: {fileID: 3716405025576636562}
   range: {x: 0, y: 9}
-  positionValue: 0
+  positionValue: 2
   continuous: 0
   rotationAxis: 0
   invertRotation: 1
