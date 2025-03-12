@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 3835.2612, g: 3498.5024, b: 4909.321, a: 1}
+  m_IndirectSpecularColor: {r: 3833.4458, g: 3497.8032, b: 4913.5005, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1401,8 +1401,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Code.Scripts.JigsawUI, Assembly-CSharp
+      - m_Target: {fileID: 8300000, guid: 311e988b10994164fa603ee1e14f460b, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: set_name
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: button click
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 512191876}
+        m_TargetAssemblyTypeName: Code.Scripts.QuitManager, Assembly-CSharp
         m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
@@ -3375,6 +3387,50 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d45fce9a0651e2544a25dc0c202d9d1a, type: 3}
+--- !u!1 &512191875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 512191877}
+  - component: {fileID: 512191876}
+  m_Layer: 0
+  m_Name: QuitManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &512191876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512191875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2580b7b09f4d443b439afb1e718ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &512191877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512191875}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &520715354
 GameObject:
   m_ObjectHideFlags: 0
@@ -14430,6 +14486,10 @@ PrefabInstance:
       propertyPath: coverOpenRotation
       value: -120
       objectReference: {fileID: 0}
+    - target: {fileID: 2320567956981116855, guid: a3844af277da688428ef7f6f9b63fdee, type: 3}
+      propertyPath: quitButton
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2502492579100961134, guid: a3844af277da688428ef7f6f9b63fdee, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -14588,3 +14648,4 @@ SceneRoots:
   - {fileID: 4051085204911581729}
   - {fileID: 2834087819835041872}
   - {fileID: 1757390915}
+  - {fileID: 512191877}
