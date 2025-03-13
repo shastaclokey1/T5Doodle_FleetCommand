@@ -3,6 +3,9 @@
 ![Preview Screenshot!](/Recordings/Screenshot.jpg)
 </br><sub>Screenshot</sub>
 
+## Source
+https://github.com/KasHunt/T5Doodle_FleetCommand/tree/main
+
 ## Description
 A turn based naval warfare game for Tilt Five.
 
@@ -90,6 +93,10 @@ related to this application should be directed to Kasper Hunt and not to Tilt Fi
 
 ## Copyright
 Copyright 2024 Kasper John Hunt
+
+## Contributors
+Kasper John Hunt - https://github.com/KasHunt
+Shasta Clokey    - https://github.com/shastaclokey1
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
